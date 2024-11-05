@@ -7,9 +7,10 @@
     <groupId>org.example</groupId>
     <artifactId>Suunnittelumallit</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>pom</packaging> <!-- If this is a parent POM, keep this -->
+
     <modules>
-        <module>AbstractFactory</module>
+        <module>Mementoo</module> <!-- Assuming this is part of a multi-module setup -->
     </modules>
 
     <properties>
@@ -17,5 +18,20 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <!-- JavaFX dependencies -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId> <!-- or javafx-base, javafx-graphics, etc. -->
+            <version>17.0.2</version> <!-- Update to the correct JavaFX version you are using -->
+        </dependency>
+
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId> <!-- Include this if you are using FXML -->
+            <version>17.0.2</version> <!-- Update to match the version of javafx-controls -->
+        </dependency>
+    </dependencies>
 
 </project>
