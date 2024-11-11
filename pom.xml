@@ -10,7 +10,8 @@
     <packaging>pom</packaging> <!-- If this is a parent POM, keep this -->
 
     <modules>
-        <module>Mementoo</module> <!-- Assuming this is part of a multi-module setup -->
+        <module>Mementoo</module>
+        <module>Builder</module> <!-- Assuming this is part of a multi-module setup -->
     </modules>
 
     <properties>
