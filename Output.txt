@@ -1,0 +1,2 @@
+This is written to a file.
+VGhpcyBpcyBlbmNyeXB0ZWQgYW5kIHdyaXR0ZW4gdG8gYSBmaWxlLg==
