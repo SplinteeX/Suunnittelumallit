@@ -11,7 +11,8 @@
 
     <modules>
         <module>Mementoo</module>
-        <module>Builder</module> <!-- Assuming this is part of a multi-module setup -->
+        <module>Builder</module>
+        <module>Adapter</module> <!-- Assuming this is part of a multi-module setup -->
     </modules>
 
     <properties>
